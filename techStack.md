@@ -7,6 +7,12 @@
 * Linux入门,已经开始习惯并喜欢Win或者Linux的命令行模式
  
 #### 软件使用：
+* `git`入门
+* `PS|FLASH`入门
+* `vscode`入门
+* `visual studio`长期使用者
+* `svn`rum
+* `office套件`学位论文排版水平以上
 
 #### 语言掌握：
 
@@ -20,9 +26,9 @@
 * C++
 
 ##### &nbsp;&nbsp;&nbsp;解释型语言：
-* javascript 郎当半年js,很基础,很入门
-* python
-
+* `javascript` 郎当半年js,很基础,很入门
+* `python`
+* `Latex`入门
 ##### 更为简单的脚本：
 * css 同js入门,计划Sass探索中
   * 买了一本《CSS揭秘》，但只是在17年底换工作时候看过一点
