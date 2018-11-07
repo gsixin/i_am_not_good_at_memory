@@ -7,6 +7,7 @@
 ### 操作系统使用：
 * windows普通水平,winserver操作入门
 * Linux入门,已经开始习惯并喜欢Win或者Linux的命令行模式
+* powershell学习中
  
 ### 软件使用：
 * `git`入门
