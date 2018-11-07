@@ -2,9 +2,11 @@
 ###### 内容总结绝大部分来自：[https://www.pstips.net/](https://www.pstips.net/)以及[微软官网](https://docs.microsoft.com/en-us/powershell/scripting/powershell-scripting?view=powershell-6)
 ### 简介
 微软官网的介绍：
+
 PowerShell is a task-based command-line shell and scripting language built on .NET. PowerShell helps system administrators and power-users rapidly automate tasks that manage operating systems (Linux, macOS, and Windows) and processes.
 
 PowerShell commands let you manage computers from the command line. PowerShell providers let you access data stores, such as the registry and certificate store, as easily as you access the file system. PowerShell includes a rich expression parser and a fully developed scripting language.
+
 总之，至于我自己的用处可能是以下几个吧：
 * 装逼用
 * 直接用powershell，可以抛弃cmd了
