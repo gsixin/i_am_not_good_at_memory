@@ -15,7 +15,7 @@
 * `PS|FLASH`入门
 * `vscode`入门
 * `visual studio`长期使用者
-* `svn`rum
+* `svn`入门
 * `office套件`学位论文排版水平以上
 
 ### 语言掌握：
@@ -31,14 +31,14 @@
 * haskell 仅限`hello world`
 
 #### &nbsp;&nbsp;&nbsp;解释型语言：
-* `javascript` 郎当半年js,很基础,很入门
+* `javascript` 郎当半年js,基础入门
 * `python`
 * `Latex`入门
 #### 更为简单的脚本：
 * css 同js入门,计划Sass探索中
-  * 买了一本《CSS揭秘》，但只是在17年底换工作时候看过一点
+  * 买了一本《CSS揭秘》，但只是在17年底换工作时候看过几章
   * 多少了解了一下sass一类的东西
-* markdown
+* `markdown`已经熟悉 
 
 ##### 语言分类：
 * 强类型语言
