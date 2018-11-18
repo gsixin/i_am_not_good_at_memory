@@ -1,4 +1,5 @@
 ## my tech stack(updating)
+`脱离IDE,从文本编辑器和命令行开始,才是真正的编程入门`
 
 ### 计算机基础：
 #### 数据结构和算法：
@@ -27,6 +28,7 @@
   * 等其他语法等使用
 * C
 * C++
+* haskell 仅限`hello world`
 
 #### &nbsp;&nbsp;&nbsp;解释型语言：
 * `javascript` 郎当半年js,很基础,很入门
