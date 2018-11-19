@@ -58,3 +58,60 @@ PowerShell commands let you manage computers from the command line. PowerShell p
 * 驱动器变量+子表达式？？？（2+3）
 * 
 
+### 条件判断
+
+几个条件判断符号：
+```
+-eq          :等于         1 -eq  2
+-ne          :不等于        "A" -neq  "ss"
+-gt          :大于
+-ge          :大于等于      lgb  -lt 1gb+1
+-lt          :小于
+-le          :小于等于
+-contains    :包含          (1,2,4,5) -contains 3
+-notcontains :不包含         ("ss",33) -notcontains 44
+```
+求反：
+```
+-not
+$a= 2 -eq 3
+not $a
+```
+
+布尔运算
+```
+-and
+-or
+-xor
+-not
+```
+
+if else 分支
+```
+if(3 -gt 5)
+{
+    "3 is greater than 5"
+}
+//elseif(condition)
+//{
+//    //do something
+//}
+else
+{
+    "3 is not greater than 5"
+}
+
+```
+
+switch 分支
+
+```
+switch($value)
+{
+    1 {}
+    2 {}
+    3 {}
+    4 {}
+}
+这个switch其实比普通编程语言的switch更加灵活，暂时详见网站教程吧。
+```
