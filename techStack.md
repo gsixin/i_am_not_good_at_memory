@@ -9,6 +9,7 @@
 * windows普通水平,winserver操作入门
 * Linux入门,已经开始习惯并喜欢Win或者Linux的命令行模式
 * powershell学习中
+* raspberr pi debian desktop 体验者
  
 ### 软件使用：
 * `git`入门
@@ -29,6 +30,7 @@
 * C
 * C++
 * haskell 仅限`hello world`
+* Socket(套接字)编程
 
 #### &nbsp;&nbsp;&nbsp;解释型语言：
 * `javascript` 郎当半年js,基础入门
