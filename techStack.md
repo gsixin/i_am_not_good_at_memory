@@ -31,6 +31,7 @@
 * C++
 * haskell 仅限`hello world`
 * Socket(套接字)编程
+* TCP/UDP编程
 
 #### &nbsp;&nbsp;&nbsp;解释型语言：
 * `javascript` 郎当半年js,基础入门

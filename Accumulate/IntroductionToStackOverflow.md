@@ -11,12 +11,17 @@
 Stack Overflow的直接原因就是，分配给程序的内存不够用了，就报错了（既然是Overflow，是因为检测到引用了规定内存地址外的地方而导致的报错吗？存疑）。
 
 一个程序初始阶段分配了固定的内存大小（物理地址也固定了吗？），然后就分为`堆内存`和`栈内存`两部分分别使用。
+当进入方法内部的时候，使用的是栈内存（栈内存的大小有限，具体多少不清楚，等再查查），所以一个方法中可供栈内存的操作空间有限，因此一些
 
-```mermaid
-graph TB;
-  A-->B;
-  B[bname];
-  A-->C;
-  B-->D;
-  C-->D;
+
+
+
+
+```flow
+op1=>operation: Heap region
+op2=>operation: Boundary
+op3=>operation: Stack region
+
+op1->op2->op3
+
 ```
