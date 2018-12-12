@@ -1,5 +1,5 @@
 ### region using template
-![region template](./regionTemplate.png)
+![region template](regionTemplate.png)
 
 模板！模板！模板！
 微软的源码还是需要多多看看的，学学代码风格也是好的。
