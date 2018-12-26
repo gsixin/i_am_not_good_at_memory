@@ -49,4 +49,11 @@
     * 赋值语句和赋值表达式？没看懂区别需要再斟酌一下。
 * exponent operation
     * the pow(a,b)function can be used to compute $a^b$.
+* delegate and function pointer  
+  * Delegates encapsulate a reference to a method inside a delegate object.
+  * delegates are object-oriented and type-safe,and more secure.under
+  * encapsulate 封装
+* applies to
+  * applies to .Net Framework x.x ... ...
 * 
+  
