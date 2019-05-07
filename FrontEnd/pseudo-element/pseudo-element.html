@@ -54,8 +54,9 @@
             background: #fc9;
             color: #fff;
             margin: auto;
+            /* 怎么觉得这些个东西越来越语义化了fit-content */
+            width: fit-content;
             padding: 20px;
-          
             display: block;
         }
 
@@ -127,11 +128,14 @@
     </div>
     <br><br><br><br>
     <h3>伪元素清除浮动???</h3>
-    <div class="outer">
-        <p class="div1"></p>
-        <p class="div2"></p>
-        <p class="div3"></p>
+    <div>
+        <div class="outer">
+            <p class="div1"></p>
+            <p class="div2"></p>
+            <p class="div3"></p>
+        </div>
     </div>
+
 </body>
 
 </html>
