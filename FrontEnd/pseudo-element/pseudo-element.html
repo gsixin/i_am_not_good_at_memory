@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .firstletter::first-letter {
+            color: #ff0000;
+            font-size: xx-large;
+        }
+
+        .before::before {
+            content: "•";
+            display: block;
+            position: relative;
+            width: 1px;
+            height: 1px;
+            top: 0.7em;
+            left: 0.3em;
+        }
+
+        .before {
+            display: inline-block;
+            margin: 0px;
+           
+        }
+
+        .after::after {
+            content: "☉###"
+        }
+
+        .selection::selection {
+            color: chocolate;
+            background-color: cornsilk;
+        }
+
+        .firstline::first-line {
+            color: #ff0000;
+        }
+    </style>
+</head>
+
+<body>
+    <h3>All CSS Pseudo Element</h3>
+    <div>
+        <p class="firstletter">first-letter pseudo element</p>
+        <p class="firstletter">首字母伪元素</p>
+    </div>
+    <div>
+        <P class="before">Before pseudo element</P>
+        <div>
+            <span class="before">前</span><span class="before">置</span><span class="before">伪</span><span class="before">元</span><span class="before">素</span>
+        </div>
+    </div>
+    <div>
+        <p class="after">After pseudo element</p>
+        <p class="after">后置伪元素</p>
+    </div>
+    <div>
+        <p class="selection">selection pseudo element</p>
+        <p class="selection">选择伪元素</p>
+    </div>
+    <div>
+        <p class="firstline">
+            To stop the degradation of the planet's natural environment and to build a future in which humans live in
+            harmony with nature, by; conserving the world's biological diversity, ensuring that the use of renewable
+            natural resources is sustainable, and promoting the reduction of pollution and wasteful consumption.
+        </p>
+        <p class="firstline">
+            大道之行也，天下为公，选贤与能，讲信修睦。故人不独亲其亲，不独子其子，使老有所终，壮有所用，幼有所长，矜、寡、孤、独、废疾者皆有所养，男有分，女有归。货恶其弃于地也，不必藏于己；力恶其不出于身也，不必为己。是故谋闭而不兴，盗窃乱贼而不作，故外户而不闭，是谓大同。
+        </p>
+    </div>
+</body>
+
+</html>
