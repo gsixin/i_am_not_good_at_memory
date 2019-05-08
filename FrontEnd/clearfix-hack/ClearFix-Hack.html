@@ -1,12 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>ClearFix-Hack</title>
+    <style>
+        h2 {
+            text-align: center;
+        }
+
+        .container {
+            width: fit-content;
+            margin: 0 auto;
+        }
+
+        .overview {
+            margin: 0 15%;
+        }
+
+        .end-line {
+            font-size: xx-small;
+            text-align: center;
+            border-bottom: 2px dotted rebeccapurple;
+        }
+
+        .float-ele {
+            float: left;
+            height: 60px;
+            width: 70px;
+            border: solid 2px skyblue;
+        }
+    </style>
 </head>
+
 <body>
-    
+    <h2>Method 1:BFC[overflow:hidden]</h2>
+    <div class="overview">父容器增加<b>style="overflow:hidden;"</b>把float的容器改成一个BFC，就可以做到ClearFix了。但是要注意overflow属性带来的容器特性改变。
+    </div>
+    <div class="container" style="overflow:hidden;background-color: seashell;">
+        <p class="float-ele">div1</p>
+        <p class="float-ele">div2</p>
+        <p class="float-ele">div3</p>
+    </div>
+    <div class="end-line">Method END</div>
+    <h2>Method 2:BFC[overflow:auto]</h2>
+    <div class="overview">父容器增加<b>style="overflow:atuo;"</b>把float的容器改成一个BFC，就可以做到ClearFix了。但是要注意overflow属性带来的容器特性改变。
+    </div>
+    <div class="container" style="overflow:auto;background-color: seashell;">
+        <p class="float-ele">div1</p>
+        <p class="float-ele">div2</p>
+        <p class="float-ele">div3</p>
+    </div>
+    <div class="end-line">Method END</div>
+
+    <div id="foot-container"
+        style="margin:30px 0px;border-bottom:khaki 30px double;border-top:gold 2px dashed;text-align: center;">
+        FOOT Banner
+    </div>
 </body>
+
 </html>
