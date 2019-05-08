@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Block Formatting Context</title>
+    <style>
+        .bfc-test {
+            /* margin border padding content 是盒子模型从外到内的顺序 */
+            margin: 20px auto;
+            border: 10px solid rgb(128, 161, 252);
+            padding: 10px;
+            height: 20px;
+            width: 40%;
+            /* 关于Block Formatting Context，块状元素格式上下文，暂且简称叫块级上下文吧BFC
+             * 上下排列的block的margin是重合的，即：两个margin的宽度只取一个，且是较大的那个。
+             */
+        }
+    </style>
+</head>
+
+<body>
+    <div id="BFC" des="Block Formatting Contexts">
+        <div class="bfc-test" style="margin: 50px auto;">
+
+        </div>
+        <div class="bfc-test">
+
+        </div>
+        <div class="bfc-test">
+
+        </div>
+    </div>
+</body>
+
+</html>
