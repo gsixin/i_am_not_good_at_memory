@@ -11,6 +11,18 @@
             color: #ff0000;
             font-size: xx-large;
         }
+        .firstletter{
+            text-align: center;
+        }
+        .after{
+            text-align: center;
+        }
+        .selection{
+            text-align: center;
+        }
+        .firstline{
+            text-align: center;
+        }
 
         .before::before {
             content: "•";
@@ -25,7 +37,7 @@
         .before {
             display: inline-block;
             margin: 0px;
-
+          
         }
 
         .after::after {
@@ -94,7 +106,14 @@
 </head>
 
 <body>
-    <h3>All CSS Pseudo Element</h3>
+    <div id="heat-banner">
+        <div style="border:solid rgb(230, 80, 80);border-width:30px 0px;margin:10px auto;text-align:center;">
+            <span>
+                HEAD AREA
+            </span>
+            <h3 style="text-align:center;margin:0px auto;">All CSS Pseudo Element</h3>
+        </div>
+    </div>
     <div>
         <p class="firstletter">first-letter pseudo element</p>
         <p class="firstletter">首字母伪元素</p>
@@ -127,7 +146,7 @@
         </p>
     </div>
     <br><br><br><br>
-    <h3>伪元素清除浮动???</h3>
+    <h3 style="text-align:center;">伪元素清除浮动(ClearFix hack,clear float)???</h3>
     <div>
         <div class="outer">
             <p class="div1"></p>
@@ -135,7 +154,13 @@
             <p class="div3"></p>
         </div>
     </div>
-
+    <div id="foot-banner">
+        <div style="border:solid rgb(230, 80, 80);border-width:30px 0px;margin:60px auto;text-align:center;">
+            <span>
+                FOOT AREA
+            </span>
+        </div>
+    </div>
 </body>
 
 </html>
