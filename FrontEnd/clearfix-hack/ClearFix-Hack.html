@@ -14,6 +14,7 @@
         .container {
             width: fit-content;
             margin: 0 auto;
+            background-color: rgb(250, 164, 103);
         }
 
         .overview {
@@ -33,6 +34,21 @@
             border: groove 20px skyblue;
             margin: 0px 3px;
         }
+
+        .container-pseudo::after {
+            content: "";
+            clear: both;
+            display: block;
+            visibility: hidden;
+            height: 0;
+        }
+
+        .container-pseudo {
+            width: fit-content;
+            margin: 0 auto;
+            zoom: 1;
+            background-color: rgb(250, 164, 103);
+        }
     </style>
 </head>
 
@@ -41,7 +57,7 @@
     <h2>Method 1:BFC[overflow:hidden]</h2>
     <div class="overview">父容器增加<b>style="overflow:hidden;"</b>把float的容器改成一个BFC，就可以做到ClearFix了。但是要注意overflow属性带来的容器特性改变。
     </div>
-    <div class="container" style="overflow:hidden;background-color: seashell;">
+    <div class="container" style="overflow:hidden;">
         <p class="float-ele">div1</p>
         <p class="float-ele">div2</p>
         <p class="float-ele">div3</p>
@@ -51,7 +67,7 @@
     <h2>Method 2:BFC[overflow:auto]</h2>
     <div class="overview">父容器增加<b>style="overflow:atuo;"</b>把float的容器改成一个BFC，就可以做到ClearFix了。但是要注意overflow属性带来的容器特性改变。
     </div>
-    <div class="container" style="overflow:auto;background-color: seashell;">
+    <div class="container" style="overflow:auto;">
         <p class="float-ele">div1</p>
         <p class="float-ele">div2</p>
         <p class="float-ele">div3</p>
@@ -61,7 +77,7 @@
     <h2>Method 3:BFC[display:table]</h2>
     <div class="overview">父容器增加<b>style="display:table;"</b>把float的容器改成一个BFC，就可以做到ClearFix了。但是要注意display属性带来的容器特性改变。
     </div>
-    <div class="container" style="display:table;background-color: seashell;">
+    <div class="container" style="display:table;">
         <p class="float-ele">div1</p>
         <p class="float-ele">div2</p>
         <p class="float-ele">div3</p>
@@ -104,14 +120,13 @@
                 4、float：left将把元素移至左侧，并被其他元素环绕。
             </span>
         </p>
-
     </div>
     <div class="end-line">Method END</div>
     <!-- -----------------M4-------------------- -->
-    <h2>Method 2:添加div标签，然后设置clear：both样式</h2>
+    <h2>Method 4:添加div标签，然后设置clear：both样式</h2>
     <div class="overview">浮动元素最后再加个空的div，设置这个div <b>style="clear:both;"</b>
     </div>
-    <div class="container" style="background-color: seashell;">
+    <div class="container" style="">
         <p class="float-ele">div1</p>
         <p class="float-ele">div2</p>
         <p class="float-ele">div3</p>
@@ -119,14 +134,27 @@
     </div>
     <div class="end-line">Method END</div>
     <!-- -----------------M5-------------------- -->
-    <h2>Method 2:添加br标签，然后设置clear：both样式</h2>
+    <h2>Method 5:添加br标签，然后设置clear：both样式</h2>
     <div class="overview">浮动元素最后再加个br，设置这个br <b>style="clear:both;"</b>
     </div>
-    <div class="container" style="background-color: seashell;">
+    <div class="container" style="">
         <p class="float-ele">div1</p>
         <p class="float-ele">div2</p>
         <p class="float-ele">div3</p>
         <br style="clear:both;" />
+    </div>
+    <div class="end-line">Method END</div>
+    <!-- -----------------M6-------------------- -->
+    <h2>Method 6:父级block定义伪元素&设置父级的zoom</h2>
+    <div class="overview">
+        父级block元素定义伪元素，伪元素设置<b>"clear:both;"</b>
+        <br>
+        解决兼容性，父级block设置<b>"zoom:1;"</b>
+    </div>
+    <div class="container-pseudo" style="">
+        <p class="float-ele">div1</p>
+        <p class="float-ele">div2</p>
+        <p class="float-ele">div3</p>
     </div>
     <div class="end-line">Method END</div>
     <div id="foot-container" style="height:30px;margin:30px 0px;border:khaki 30px dotted;text-align: center;">
