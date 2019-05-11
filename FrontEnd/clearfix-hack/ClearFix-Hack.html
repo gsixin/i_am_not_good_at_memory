@@ -54,7 +54,7 @@
 
 <body>
     <!-- -----------------M1-------------------- -->
-    <h2>Method 1:BFC[overflow:hidden]</h2>
+    <h2 style="zoom:150%;" title="style:'zoon:150%;'">Method 1:BFC[overflow:hidden]</h2>
     <div class="overview">父容器增加<b>style="overflow:hidden;"</b>把float的容器改成一个BFC，就可以做到ClearFix了。但是要注意overflow属性带来的容器特性改变。
     </div>
     <div class="container" style="overflow:hidden;">
@@ -64,7 +64,7 @@
     </div>
     <div class="end-line">Method END</div>
     <!-- -----------------M2-------------------- -->
-    <h2>Method 2:BFC[overflow:auto]</h2>
+    <h2 style="zoom:200%;" title="style:'zoon:200%;'">Method 2:BFC[overflow:auto]<b>【推荐】</b></h2>
     <div class="overview">父容器增加<b>style="overflow:atuo;"</b>把float的容器改成一个BFC，就可以做到ClearFix了。但是要注意overflow属性带来的容器特性改变。
     </div>
     <div class="container" style="overflow:auto;">
@@ -145,13 +145,13 @@
     </div>
     <div class="end-line">Method END</div>
     <!-- -----------------M6-------------------- -->
-    <h2>Method 6:父级block定义伪元素&设置父级的zoom</h2>
+    <h2>Method 6:父级block定义伪元素&设置父级的zoom【推荐】</h2>
     <div class="overview">
         父级block元素定义伪元素，伪元素设置<b>"clear:both;"</b>
         <br>
         解决兼容性，父级block设置<b>"zoom:1;"</b>
     </div>
-    <div class="container-pseudo" style="">
+    <div class="container-pseudo">
         <p class="float-ele">div1</p>
         <p class="float-ele">div2</p>
         <p class="float-ele">div3</p>

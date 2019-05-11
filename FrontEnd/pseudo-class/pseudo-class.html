@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pseudo-Class</title>
+    <style>
+        .pesudo-class {
+            border: rgb(201, 201, 201) 3px solid;
+            margin-top: 8px;
+        }
+
+        .active:active {
+            background-color: aqua;
+        }
+
+        #checked-frm input {
+            height: 30px;
+            width: 30px;
+        }
+
+        #checked-frm input:checked {
+            height: 30px;
+            width: 50px;
+        }
+
+        input[type=text]:enabled {
+            background: #eca31b;
+        }
+
+        input[type=text]:disabled {
+            background: #dddddd;
+        }
+
+        .empty p:empty {
+            width: 90px;
+            height: 30px;
+            background: #b1b165;
+        }
+
+        /* 匹配first-child后代（后代组）中的第一个子元素 */
+        .first-child :first-child {
+            background: #9784ff;
+        }
+
+        /* 匹配first-child后代（后代组）中的第一个子元素，且这个元素需要时p元素
+        .first-child p:first-child {
+            background: #9784ff;
+        }
+        匹配first-child后代（后代组）中的p元素的第一个
+        .first-child p:first-of-type {
+            background: #9784ff;
+        }  
+        与之对应的还有last-child和last-of-type
+        */
+
+        .first-of-type span:first-of-type {
+            background: #ff3d77;
+        }
+
+        .focus input:focus {
+            background: #32fff5;
+        }
+
+        /* 对应的有out-of-range */
+        input:in-range {
+            border: 2px solid rgb(158, 158, 0);
+        }
+
+        .invalid input:invalid {
+            border: 2px solid red;
+        }
+
+        p:lang(it) {
+            background: yellow;
+        }
+
+        a:link {
+            background-color: rgb(243, 98, 98);
+        }
+
+        .not p {
+            color: green;
+        }
+
+        .not :not(p) {
+            color: #ff0000;
+        }
+
+        /* 同理可推其他三个：nth-last-child(n);nth-of-type(n);nth-last-of-type(n); */
+        .nth-child p:nth-child(2) {
+            background: red;
+        }
+
+        .only-of-type p:only-of-type {
+            background: rgb(255, 217, 0);
+        }
+
+        .only-child p:only-child {
+            background: #32fff5;
+        }
+
+        /* required 属性规定必需在提交之前填写输入字段。 */
+        .required input:optional {
+            background-color: yellow;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="head-banner" style="height:50px;margin:20px 5%;border: aqua 1px double;">
+        <h2 style="margin:2px auto;text-align: center;">各种伪类pseudo class的介绍</h2>
+    </div>
+    <div class="content-container" style="margin:0px 5%;">
+        <div class="pesudo-class active">
+            avtive:什么算是激活状态？
+            <p><a href="http://www.baidu.com" target="_blank" style="height:30px;width:55px;">baidu</a></p>
+            <p><a href="http://www.taobao.com">taobao</a></p>
+        </div>
+        <div class="pesudo-class checked">
+            <form action="" id="checked-frm">
+                <input type="radio" checked="checked" value="male" name="gender"> Male<br>
+                <input type="radio" value="female" name="gender"> Female<br>
+                <input type="checkbox" checked="checked" value="Bike"> I have a bike<br>
+                <input type="checkbox" value="Car"> I have a car
+            </form>
+        </div>
+        <div class="pesudo-class disabled">
+            <form action="">
+                First name: <input type="text" value="Mickey"><br>
+                Last name: <input type="text" value="Mouse"><br>
+                Country: <input type="text" disabled="disabled" value="Disneyland">
+            </form>
+        </div>
+        <div class="pesudo-class empty">
+            <p></p>
+            <p>A paragraph.</p>
+            <p>Another paragraph.</p>
+        </div>
+        <div class="pesudo-class first-child">
+            <p>This paragraph is the first child of its parent (body).</p>
+
+            <h1>Welcome to My Homepage</h1>
+            <p>This paragraph is not the first child of its parent.</p>
+
+            <div>
+                <span>This paragraph is the first child of its parent (div).</span>
+                <p>This paragraph is not the first child of its parent.</p>
+            </div>
+
+            <p><b>Note:</b> For :first-child to work in IE8 and earlier, a DOCTYPE must be declared.</p>
+        </div>
+        <div class="pesudo-class first-of-type">
+            <p>The first paragraph.</p>
+            <p>The second paragraph.</p>
+            <p>The third paragraph.</p>
+            <span>
+                the first span element.
+            </span>
+            <p>The fourth paragraph.</p>
+        </div>
+        <div class="pesudo-class focus">
+            <form>
+                First name: <input type="text" name="firstname"><br>
+                Last name: <input type="text" name="lastname">
+            </form>
+        </div>
+
+        <div class="pesudo-class in-range">
+            <h3>A demonstration of the :in-range selector.</h3>
+
+            <input type="number" min="5" max="10" value="7">
+
+            <p>Try typing a number out of range (less than 5 or higher than 10), to see the styling disappear.</p>
+        </div>
+
+        <div class="pesudo-class invalid">
+            <h3>A demonstration of the :invalid selector.</h3>
+
+            <input type="email" value="supportEmail">
+
+            <p>Try typing a legal e-mail address, to see the styling disappear.</p>
+
+            <p><strong>Note</strong>: The :invalid selector is not supported in Internet Explorer 9 and earlier
+                versions.</p>
+        </div>
+
+        <div class="pesudo-class lang">
+            <p>I live in Italy.</p>
+            <p lang="it">Ciao bella!</p>
+            <p><b>Note:</b> For :lang to work in IE8, a DOCTYPE must be declared.</p>
+        </div>
+
+        <div class="pesudo-class link">
+            <a href="https://www.w3schools.com" target="_blank">W3Sschools</a>
+            <a href="http://www.wikipedia.org" target="_blank">Wikipedia</a>
+
+            <p><b>Note:</b> The :link selector style links to pages you have not visited yet.</p>
+        </div>
+
+        <div class="pesudo-class not">
+            <h1>This is a heading</h1>
+
+            <p>This is a paragraph.</p>
+            <p>This is another paragraph.</p>
+
+            <div>This is some text in a div element.</div>
+
+            <a href="https://www.w3schools.com" target="_blank">Link to W3Schools!</a>
+
+        </div>
+
+        <div class="pesudo-class nth-child">
+            <p>The first paragraph.</p>
+            <p>The second paragraph.</p>
+            <p>The third paragraph.</p>
+            <p>The fourth paragraph.</p>
+
+            <p><b>Note:</b> Internet Explorer 8 and earlier versions do not support the :nth-child() selector.</p>
+        </div>
+
+        <div class="pesudo-class only-of-type">
+            <div>
+                <p>This is a paragraph.</p><b>This is a paragraph.</b>
+            </div>
+
+            <div>
+                <p>This is a paragraph.</p>
+                <p>This is a paragraph.</p>
+            </div>
+            <div>
+                <p>This is a paragraph.</p>
+            </div>
+        </div>
+
+        <div class="pesudo-class only-child">
+            <div>
+                <p>This is a paragraph.</p>
+            </div>
+
+            <div><span>This is a span.</span>
+                <p>This is a paragraph.</p>
+            </div>
+
+            <p><b>Note:</b> Internet Explorer 8 and earlier versions do not support the :only-child selector.</p>
+        </div>
+
+        <div class="pesudo-class required">
+            <h3>A demonstration of the :optional selector.</h3>
+
+            <p>An optional input element:<br><input></p>
+
+            <p>A required input element:<br><input required></p>
+
+            <p>The :optional selector selects form elements with no "required" attribute.</p>
+
+            <p><strong>Note:</strong> The :optional selector is not supported in Internet Explorer 9 or earlier
+                versions.</p>
+        </div>
+    </div>
+    <div style="text-align: center; border-bottom:red 4px double;margin:60px 0px;">
+        FOOT BANNER
+    </div>
+</body>
+
+</html>
