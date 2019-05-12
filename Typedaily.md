@@ -36,3 +36,40 @@ predefined
 wildcards*
 neutral
 log.information("processed{}")
+### 190512
+class mode is indentical to iis 6.0
+this enables many scenarios
+entirely
+authenticate
+authorize
+there is one task that is reserved for a special module, knowm as handler.
+retrieve
+omit
+the same is true for
+case-sensitive
+solve an issue that was driving me around the bend
+as well
+the httpresquest object expose properties representing the http request and response.
+funnel
+if your web server has multiple cpus, you can config popeline to use multiple worker process one per cpu.
+deploment
+contention
+default webgraden webfarm
+violation
+obsolete
+manipulate
+modernizer.js
+cumbersome
+miscellaneous
+agile
+veggies
+if only/only if
+presistent
+deprecated
+stand-along
+scenario
+predefined
+wildcards
+neutral
+pseudo element/class
+
