@@ -3,3 +3,6 @@ three things this repository will do:
 * accumulate LeetCode problems and answers that from myself and others' post
 * some technology skill record
 * record some things like diary do
+```
+add gsixin-TDK as collaborator and clone file to local.
+```
