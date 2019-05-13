@@ -3,7 +3,6 @@
 
 ### 计算机基础：
 #### 数据结构和算法：
-* 解析latex编码数学表达式的项目完成后，可以比较愉快的敲递归了。
 
 ### 操作系统使用：
 * windows普通水平,winserver操作入门
@@ -35,7 +34,7 @@
 
 #### &nbsp;&nbsp;&nbsp;解释型语言：
 * `javascript` 郎当半年js,基础入门
-* `python`
+* `python`入门
 * `Latex`入门
 #### 更为简单的脚本：
 * css 同js入门,计划Sass探索中
