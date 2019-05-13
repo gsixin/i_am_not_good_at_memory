@@ -73,3 +73,40 @@ wildcards
 neutral
 pseudo element/class
 
+### 090513
+class mode is identical to iis 6
+this emables many scenarios
+entirely
+authenticate
+authorize
+there is one task that is reserved for a special module, known as handler.
+retrieve
+omit
+the same is true for
+case-sensitive
+solve an issue that was driving me around the bend
+as well
+the httprequest object expose properties representing the http request and reponse.
+funnel  filter
+if your web server has multiple cpus, you can config pipeline to use multiple worker processes one per cpu.
+deployment
+contention  content
+default webdarden webfarm
+violation
+obsolete
+constraint
+manipulate
+modernizer.js
+cumbersome
+miscellaneous
+agile
+beggies
+chore
+if only only if
+presistent
+deprecated
+stand-along
+scenario
+predefined
+wildcard    通配符
+neutral
