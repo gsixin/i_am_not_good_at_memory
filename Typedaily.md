@@ -110,3 +110,40 @@ scenario
 predefined
 wildcard    通配符
 neutral
+### 190514
+class mode is indentical to iis 6.0
+this enables many scenarios
+entirely
+authenticate
+authorize
+there is one task that is for special module, known as handler
+retrieve/search
+omit
+the same is true for
+case-sensitive
+sovle an issue that was driving me around the bend
+as well
+the httprequest object expose properties representing the http request and response message.
+funnel
+if your web server has multiple cups, you can config pipeline to use multiple process worker processes, one per cpu.
+deplayment
+contention
+default
+webgarden
+webfarm
+violation   违反
+obsolete   废弃的
+manipulate
+modernizer.js
+cumbersome
+miscellaneous
+agile
+veggies
+chore
+if only only if
+presistent
+deprecated
+stand-along
+scenarios
+predefined
+wildcards
