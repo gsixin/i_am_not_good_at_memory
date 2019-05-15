@@ -147,3 +147,42 @@ stand-along
 scenarios
 predefined
 wildcards
+### 190515
+class mode is identical to iis 6.0
+this enables many scenarios
+entirely
+authenticate
+authorize
+there is one task that is serverd for a special module, known as handler.
+retrieve
+omit
+the same is true for
+case-sensitive
+solve an issue that is driving me around the bend
+as well
+the httprequest object expose properties representing the http request and response.
+funnel
+if your web server has multiple cpus. you can config pipeline to use multiple woker process, one per cpu.
+deployment
+contention
+default webgarden webfarm
+violation
+obsolete
+constraint
+manipulate
+moderlizer.js
+cumbersome
+agile
+vegeies
+chore
+if only  only if
+presistent
+deprecated
+stand-along
+scenario
+predefined
+wildcards
+neutral
+pseudo element
+compaitibility
+working draft
