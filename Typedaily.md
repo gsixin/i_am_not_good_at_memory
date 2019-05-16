@@ -186,3 +186,42 @@ neutral
 pseudo element
 compaitibility
 working draft
+### 190516
+class mode is indentical to iis 6.0
+this enables many scenarios
+entirely
+authenticate
+authorize
+authorization
+there is one task that is reserved for a special module, known as handler.
+retrieve
+omit
+the same if true for
+case-sensitive
+solve an issue that is driving me around the bend
+as well
+the httprequest object expose the properties representing the http request and response.
+funnel
+if your web server has multiple cpus, you can config pipeline to use multiple worker process, one per cpu.
+deployment
+contention
+default webgarden webfarm
+violation
+obsolete
+manipulate
+modernizer.js
+cumbersome
+agile
+veggies
+chore
+if only only if
+presisent
+deprecated
+stand-along
+scenario
+predefined
+wildcard
+neutral
+pseudo element
+compatibility
+working draft
