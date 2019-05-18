@@ -147,81 +147,38 @@ stand-along
 scenarios
 predefined
 wildcards
-### 190515
-class mode is identical to iis 6.0
+### 190518
+class model is intentical to iis 6.0
 this enables many scenarios
 entirely
 authenticate
 authorize
-there is one task that is serverd for a special module, known as handler.
-retrieve
-omit
-the same is true for
-case-sensitive
-solve an issue that is driving me around the bend
-as well
-the httprequest object expose properties representing the http request and response.
-funnel
-if your web server has multiple cpus. you can config pipeline to use multiple woker process, one per cpu.
-deployment
-contention
-default webgarden webfarm
-violation
-obsolete
-constraint
-manipulate
-moderlizer.js
-cumbersome
-agile
-vegeies
-chore
-if only  only if
-presistent
-deprecated
-stand-along
-scenario
-predefined
-wildcards
-neutral
-pseudo element
-compaitibility
-working draft
-### 190516
-class mode is indentical to iis 6.0
-this enables many scenarios
-entirely
-authenticate
-authorize
-authorization
-there is one task that is reserved for a special module, known as handler.
-retrieve
+there is one task that is for special module, known as handler
+retrieve search
 omit
 the same if true for
 case-sensitive
-solve an issue that is driving me around the bend
+sovle an issue that was driving me around the bend
 as well
-the httprequest object expose the properties representing the http request and response.
+the httprequest object expose properties reprenting the http request and reponse message.
 funnel
-if your web server has multiple cpus, you can config pipeline to use multiple worker process, one per cpu.
-deployment
+if your web server has multiple cpus, you can config pipeline to use multiple process worker process, one per cpu.
+deplayment
 contention
-default webgarden webfarm
+default
+webgardan
+webfarm
 violation
 obsolete
 manipulate
-modernizer.js
-cumbersome
+miscellaneous
 agile
-veggies
+beggies
 chore
-if only only if
-presisent
+if only only if 
+presistent
 deprecated
 stand-along
-scenario
+scenarios
 predefined
-wildcard
-neutral
-pseudo element
-compatibility
-working draft
+widcards
