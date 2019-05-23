@@ -311,6 +311,36 @@ deprecated
 stand-along
 scenarios
 wildcard
+### 190523
+class model is identical to iis 6.0
+this enables many scenarios
+entirely
+authenticate
+authorize
+there is no task that if for module, known as handler
+retrieve
+the same is true for
+case-sensitive
+solve an iuuse that is driving me around the bend
+as well
+the httprequest object expose properties the request and response
+funnel
+if you web server has multiple cpus, you can config pipeline to use multiple process, one per cpu.
+deplayment
+contention
+defautl werbgarden webfarm
+violation
+obolate
+miscellaneous
+agile
+vigges
+chore
+if only only if
+presistent
+deprecated
+stand-along
+scenarios
+wildcard
 
 
 
